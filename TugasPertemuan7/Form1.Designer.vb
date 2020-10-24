@@ -37,7 +37,19 @@ Partial Class Form1
         Me.btn_number_6 = New System.Windows.Forms.Button()
         Me.list_number_7 = New System.Windows.Forms.ListBox()
         Me.btn_number_7 = New System.Windows.Forms.Button()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.list_while_5 = New System.Windows.Forms.ListBox()
+        Me.btn_while_5 = New System.Windows.Forms.Button()
+        Me.list_while_4 = New System.Windows.Forms.ListBox()
+        Me.btn_while_4 = New System.Windows.Forms.Button()
+        Me.list_while_3 = New System.Windows.Forms.ListBox()
+        Me.btn_while_3 = New System.Windows.Forms.Button()
+        Me.list_while_2 = New System.Windows.Forms.ListBox()
+        Me.btn_while_2 = New System.Windows.Forms.Button()
+        Me.list_while_1 = New System.Windows.Forms.ListBox()
+        Me.btn_while_1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -190,15 +202,127 @@ Partial Class Form1
         Me.btn_number_7.Text = "Angka 7"
         Me.btn_number_7.UseVisualStyleBackColor = True
         '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.list_while_5)
+        Me.GroupBox2.Controls.Add(Me.btn_while_5)
+        Me.GroupBox2.Controls.Add(Me.list_while_4)
+        Me.GroupBox2.Controls.Add(Me.btn_while_4)
+        Me.GroupBox2.Controls.Add(Me.list_while_3)
+        Me.GroupBox2.Controls.Add(Me.btn_while_3)
+        Me.GroupBox2.Controls.Add(Me.list_while_2)
+        Me.GroupBox2.Controls.Add(Me.btn_while_2)
+        Me.GroupBox2.Controls.Add(Me.list_while_1)
+        Me.GroupBox2.Controls.Add(Me.btn_while_1)
+        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.Location = New System.Drawing.Point(12, 211)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(640, 188)
+        Me.GroupBox2.TabIndex = 1
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "While ... End While"
+        '
+        'list_while_5
+        '
+        Me.list_while_5.FormattingEnabled = True
+        Me.list_while_5.ItemHeight = 16
+        Me.list_while_5.Location = New System.Drawing.Point(511, 54)
+        Me.list_while_5.Name = "list_while_5"
+        Me.list_while_5.Size = New System.Drawing.Size(120, 116)
+        Me.list_while_5.TabIndex = 9
+        '
+        'btn_while_5
+        '
+        Me.btn_while_5.Location = New System.Drawing.Point(511, 22)
+        Me.btn_while_5.Name = "btn_while_5"
+        Me.btn_while_5.Size = New System.Drawing.Size(120, 25)
+        Me.btn_while_5.TabIndex = 8
+        Me.btn_while_5.Text = "Angka 5"
+        Me.btn_while_5.UseVisualStyleBackColor = True
+        '
+        'list_while_4
+        '
+        Me.list_while_4.FormattingEnabled = True
+        Me.list_while_4.ItemHeight = 16
+        Me.list_while_4.Location = New System.Drawing.Point(385, 54)
+        Me.list_while_4.Name = "list_while_4"
+        Me.list_while_4.Size = New System.Drawing.Size(120, 116)
+        Me.list_while_4.TabIndex = 7
+        '
+        'btn_while_4
+        '
+        Me.btn_while_4.Location = New System.Drawing.Point(385, 22)
+        Me.btn_while_4.Name = "btn_while_4"
+        Me.btn_while_4.Size = New System.Drawing.Size(120, 25)
+        Me.btn_while_4.TabIndex = 6
+        Me.btn_while_4.Text = "Angka 4"
+        Me.btn_while_4.UseVisualStyleBackColor = True
+        '
+        'list_while_3
+        '
+        Me.list_while_3.FormattingEnabled = True
+        Me.list_while_3.ItemHeight = 16
+        Me.list_while_3.Location = New System.Drawing.Point(259, 54)
+        Me.list_while_3.Name = "list_while_3"
+        Me.list_while_3.Size = New System.Drawing.Size(120, 116)
+        Me.list_while_3.TabIndex = 5
+        '
+        'btn_while_3
+        '
+        Me.btn_while_3.Location = New System.Drawing.Point(259, 22)
+        Me.btn_while_3.Name = "btn_while_3"
+        Me.btn_while_3.Size = New System.Drawing.Size(120, 25)
+        Me.btn_while_3.TabIndex = 4
+        Me.btn_while_3.Text = "Angka 3"
+        Me.btn_while_3.UseVisualStyleBackColor = True
+        '
+        'list_while_2
+        '
+        Me.list_while_2.FormattingEnabled = True
+        Me.list_while_2.ItemHeight = 16
+        Me.list_while_2.Location = New System.Drawing.Point(133, 55)
+        Me.list_while_2.Name = "list_while_2"
+        Me.list_while_2.Size = New System.Drawing.Size(120, 116)
+        Me.list_while_2.TabIndex = 3
+        '
+        'btn_while_2
+        '
+        Me.btn_while_2.Location = New System.Drawing.Point(133, 23)
+        Me.btn_while_2.Name = "btn_while_2"
+        Me.btn_while_2.Size = New System.Drawing.Size(120, 25)
+        Me.btn_while_2.TabIndex = 2
+        Me.btn_while_2.Text = "Angka 2"
+        Me.btn_while_2.UseVisualStyleBackColor = True
+        '
+        'list_while_1
+        '
+        Me.list_while_1.FormattingEnabled = True
+        Me.list_while_1.ItemHeight = 16
+        Me.list_while_1.Location = New System.Drawing.Point(7, 55)
+        Me.list_while_1.Name = "list_while_1"
+        Me.list_while_1.Size = New System.Drawing.Size(120, 116)
+        Me.list_while_1.TabIndex = 1
+        '
+        'btn_while_1
+        '
+        Me.btn_while_1.Location = New System.Drawing.Point(7, 23)
+        Me.btn_while_1.Name = "btn_while_1"
+        Me.btn_while_1.Size = New System.Drawing.Size(120, 25)
+        Me.btn_while_1.TabIndex = 0
+        Me.btn_while_1.Text = "Angka 1"
+        Me.btn_while_1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(917, 450)
+        Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -218,4 +342,15 @@ Partial Class Form1
     Friend WithEvents btn_number_2 As Button
     Friend WithEvents list_number_1 As ListBox
     Friend WithEvents btn_number_1 As Button
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents list_while_5 As ListBox
+    Friend WithEvents btn_while_5 As Button
+    Friend WithEvents list_while_4 As ListBox
+    Friend WithEvents btn_while_4 As Button
+    Friend WithEvents list_while_3 As ListBox
+    Friend WithEvents btn_while_3 As Button
+    Friend WithEvents list_while_2 As ListBox
+    Friend WithEvents btn_while_2 As Button
+    Friend WithEvents list_while_1 As ListBox
+    Friend WithEvents btn_while_1 As Button
 End Class

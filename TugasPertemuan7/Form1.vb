@@ -67,4 +67,58 @@
             Next
         Next
     End Sub
+
+    Private Sub btn_while_1_Click(sender As Object, e As EventArgs) Handles btn_while_1.Click
+        Dim i As Integer
+        i = 1
+        While i <= 10
+            list_while_1.Items.Add(i)
+            i = i + 1
+        End While
+    End Sub
+
+    Private Sub btn_while_2_Click(sender As Object, e As EventArgs) Handles btn_while_2.Click
+        Dim i As Integer
+        i = 1
+        While i <= 10
+            list_while_2.Items.Add(i)
+            i = i + 2
+        End While
+    End Sub
+
+    Private Sub btn_while_3_Click(sender As Object, e As EventArgs) Handles btn_while_3.Click
+        Dim i As Integer
+        i = 1
+        While i <= 10
+            list_while_3.Items.Add(i + 1)
+            i = i + 1
+        End While
+    End Sub
+
+    Private Sub btn_while_4_Click(sender As Object, e As EventArgs) Handles btn_while_4.Click
+        Dim i As Integer
+        i = 1
+        While i <= 10
+            list_while_4.Items.Add(i & " A")
+            i = i + 1
+        End While
+    End Sub
+
+    Private Sub btn_while_5_Click(sender As Object, e As EventArgs) Handles btn_while_5.Click
+        Dim i As Integer
+        Dim a As String
+
+        i = 1
+        While i <= 10
+            If i Mod 2 = 0 Then
+                a = "Genap"
+            Else
+                a = "Ganjil"
+            End If
+
+            list_while_5.Items.Add(i & " " & a)
+
+            i = i + 1
+        End While
+    End Sub
 End Class
