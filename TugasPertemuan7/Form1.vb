@@ -1,124 +1,60 @@
 ﻿Public Class Form1
-    Private Sub btn_number_1_Click(sender As Object, e As EventArgs) Handles btn_number_1.Click
-        Dim i As Integer
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'For Each
+        Dim classData As String
+        Dim classList() As String = {"Teknik Informatika - A", "Sistem Infromasi - A", "Teknologi Informasi - A", "Teknik Informatika - B", "Sistem Infromasi - B", "Teknologi Informasi - B"}
 
-        For i = 1 To 4
-            list_number_1.Items.Add(i)
+        For Each classData In classList
+            cb_class.Items.Add(classData)
         Next
-    End Sub
 
-    Private Sub btn_number_2_Click(sender As Object, e As EventArgs) Handles btn_number_2.Click
-        Dim i As Integer
+        'While
+        Dim dateList As Integer = 1
 
-        For i = 1 To 4 Step 2
-            list_number_2.Items.Add(i)
-        Next
-    End Sub
+        While dateList <= 31
+            cb_date.Items.Add(dateList)
+            dateList += 1
+        End While
 
-    Private Sub btn_number_3_Click(sender As Object, e As EventArgs) Handles btn_number_3.Click
-        Dim i As Integer
-
-        For i = 1 To 4
-            list_number_3.Items.Add(i + 1)
-        Next
-    End Sub
-
-    Private Sub btn_number_4_Click(sender As Object, e As EventArgs) Handles btn_number_4.Click
-        Dim i As Integer
-
-        For i = 1 To 4
-            list_number_4.Items.Add(i & " A")
-        Next
-    End Sub
-
-    Private Sub btn_number_5_Click(sender As Object, e As EventArgs) Handles btn_number_5.Click
-        Dim i As Integer
-        Dim a As String
-
-        For i = 1 To 4
-            If i Mod 2 = 0 Then
-                a = "Genap"
-            Else
-                a = "Ganjil"
+        'Do While
+        Dim monthList As Integer = 1
+        Do While monthList <= 2000
+            cb_month.Items.Add(monthList)
+            If monthList = 12 Then
+                Exit Do
             End If
+            monthList += 1
+        Loop
 
-            list_number_5.Items.Add(i & " " & a)
+        'For
+        Dim yearList As Integer
+        For yearList = Year(Now) - 100 To Year(Now)
+            cb_year.Items.Add(yearList)
         Next
+
+        'Do Until
+        Dim bodyWeight As Integer = 10
+        Do Until bodyWeight >= 200
+            cb_weight.Items.Add(bodyWeight & " kg")
+            bodyWeight += 5
+        Loop
+
+        'Do ... Loop While
+        Dim bodyHeight As Integer = 10
+        Do
+            cb_height.Items.Add(bodyHeight & " cm")
+            bodyHeight += 5
+        Loop While bodyHeight <= 200
+
+        'Do ... Loop Until
+        Dim age As Integer = 18
+        Do
+            cb_age.Items.Add(age & " Tahun")
+            age += 1
+        Loop Until age > 70
     End Sub
 
-    Private Sub btn_number_6_Click(sender As Object, e As EventArgs) Handles btn_number_6.Click
-        Dim i As Integer
-        Dim j As Integer
-
-        For i = 1 To 4
-            For j = 1 To i
-                list_number_6.Items.Add(i)
-            Next
-        Next
-    End Sub
-
-    Private Sub btn_number_7_Click(sender As Object, e As EventArgs) Handles btn_number_7.Click
-        Dim i As Integer
-        Dim j As Integer
-
-        For i = 1 To 4
-            For j = 1 To i
-                list_number_7.Items.Add(j & " " & i)
-            Next
-        Next
-    End Sub
-
-    Private Sub btn_while_1_Click(sender As Object, e As EventArgs) Handles btn_while_1.Click
-        Dim i As Integer
-        i = 1
-        While i <= 10
-            list_while_1.Items.Add(i)
-            i = i + 1
-        End While
-    End Sub
-
-    Private Sub btn_while_2_Click(sender As Object, e As EventArgs) Handles btn_while_2.Click
-        Dim i As Integer
-        i = 1
-        While i <= 10
-            list_while_2.Items.Add(i)
-            i = i + 2
-        End While
-    End Sub
-
-    Private Sub btn_while_3_Click(sender As Object, e As EventArgs) Handles btn_while_3.Click
-        Dim i As Integer
-        i = 1
-        While i <= 10
-            list_while_3.Items.Add(i + 1)
-            i = i + 1
-        End While
-    End Sub
-
-    Private Sub btn_while_4_Click(sender As Object, e As EventArgs) Handles btn_while_4.Click
-        Dim i As Integer
-        i = 1
-        While i <= 10
-            list_while_4.Items.Add(i & " A")
-            i = i + 1
-        End While
-    End Sub
-
-    Private Sub btn_while_5_Click(sender As Object, e As EventArgs) Handles btn_while_5.Click
-        Dim i As Integer
-        Dim a As String
-
-        i = 1
-        While i <= 10
-            If i Mod 2 = 0 Then
-                a = "Genap"
-            Else
-                a = "Ganjil"
-            End If
-
-            list_while_5.Items.Add(i & " " & a)
-
-            i = i + 1
-        End While
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        MsgBox("Data Berhasil Disimpan")
     End Sub
 End Class

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,337 +20,197 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.btn_number_1 = New System.Windows.Forms.Button()
-        Me.list_number_1 = New System.Windows.Forms.ListBox()
-        Me.list_number_2 = New System.Windows.Forms.ListBox()
-        Me.btn_number_2 = New System.Windows.Forms.Button()
-        Me.list_number_3 = New System.Windows.Forms.ListBox()
-        Me.btn_number_3 = New System.Windows.Forms.Button()
-        Me.list_number_4 = New System.Windows.Forms.ListBox()
-        Me.btn_number_4 = New System.Windows.Forms.Button()
-        Me.list_number_5 = New System.Windows.Forms.ListBox()
-        Me.btn_number_5 = New System.Windows.Forms.Button()
-        Me.list_number_6 = New System.Windows.Forms.ListBox()
-        Me.btn_number_6 = New System.Windows.Forms.Button()
-        Me.list_number_7 = New System.Windows.Forms.ListBox()
-        Me.btn_number_7 = New System.Windows.Forms.Button()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.list_while_5 = New System.Windows.Forms.ListBox()
-        Me.btn_while_5 = New System.Windows.Forms.Button()
-        Me.list_while_4 = New System.Windows.Forms.ListBox()
-        Me.btn_while_4 = New System.Windows.Forms.Button()
-        Me.list_while_3 = New System.Windows.Forms.ListBox()
-        Me.btn_while_3 = New System.Windows.Forms.Button()
-        Me.list_while_2 = New System.Windows.Forms.ListBox()
-        Me.btn_while_2 = New System.Windows.Forms.Button()
-        Me.list_while_1 = New System.Windows.Forms.ListBox()
-        Me.btn_while_1 = New System.Windows.Forms.Button()
-        Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txt_name = New System.Windows.Forms.TextBox()
+        Me.cb_class = New System.Windows.Forms.ComboBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.cb_date = New System.Windows.Forms.ComboBox()
+        Me.cb_month = New System.Windows.Forms.ComboBox()
+        Me.cb_year = New System.Windows.Forms.ComboBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.cb_weight = New System.Windows.Forms.ComboBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.cb_height = New System.Windows.Forms.ComboBox()
+        Me.cb_age = New System.Windows.Forms.ComboBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'GroupBox1
+        'Label1
         '
-        Me.GroupBox1.Controls.Add(Me.list_number_7)
-        Me.GroupBox1.Controls.Add(Me.btn_number_7)
-        Me.GroupBox1.Controls.Add(Me.list_number_6)
-        Me.GroupBox1.Controls.Add(Me.btn_number_6)
-        Me.GroupBox1.Controls.Add(Me.list_number_5)
-        Me.GroupBox1.Controls.Add(Me.btn_number_5)
-        Me.GroupBox1.Controls.Add(Me.list_number_4)
-        Me.GroupBox1.Controls.Add(Me.btn_number_4)
-        Me.GroupBox1.Controls.Add(Me.list_number_3)
-        Me.GroupBox1.Controls.Add(Me.btn_number_3)
-        Me.GroupBox1.Controls.Add(Me.list_number_2)
-        Me.GroupBox1.Controls.Add(Me.btn_number_2)
-        Me.GroupBox1.Controls.Add(Me.list_number_1)
-        Me.GroupBox1.Controls.Add(Me.btn_number_1)
-        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(13, 13)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(892, 188)
-        Me.GroupBox1.TabIndex = 0
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "For ... Next"
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(97, 9)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(45, 17)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Nama"
         '
-        'btn_number_1
+        'txt_name
         '
-        Me.btn_number_1.Location = New System.Drawing.Point(7, 23)
-        Me.btn_number_1.Name = "btn_number_1"
-        Me.btn_number_1.Size = New System.Drawing.Size(120, 25)
-        Me.btn_number_1.TabIndex = 0
-        Me.btn_number_1.Text = "Angka 1"
-        Me.btn_number_1.UseVisualStyleBackColor = True
+        Me.txt_name.Location = New System.Drawing.Point(148, 8)
+        Me.txt_name.Name = "txt_name"
+        Me.txt_name.Size = New System.Drawing.Size(174, 20)
+        Me.txt_name.TabIndex = 1
         '
-        'list_number_1
+        'cb_class
         '
-        Me.list_number_1.FormattingEnabled = True
-        Me.list_number_1.ItemHeight = 16
-        Me.list_number_1.Location = New System.Drawing.Point(7, 55)
-        Me.list_number_1.Name = "list_number_1"
-        Me.list_number_1.Size = New System.Drawing.Size(120, 116)
-        Me.list_number_1.TabIndex = 1
+        Me.cb_class.FormattingEnabled = True
+        Me.cb_class.Location = New System.Drawing.Point(148, 35)
+        Me.cb_class.Name = "cb_class"
+        Me.cb_class.Size = New System.Drawing.Size(174, 21)
+        Me.cb_class.TabIndex = 2
         '
-        'list_number_2
+        'Label2
         '
-        Me.list_number_2.FormattingEnabled = True
-        Me.list_number_2.ItemHeight = 16
-        Me.list_number_2.Location = New System.Drawing.Point(133, 55)
-        Me.list_number_2.Name = "list_number_2"
-        Me.list_number_2.Size = New System.Drawing.Size(120, 116)
-        Me.list_number_2.TabIndex = 3
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(97, 36)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(43, 17)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = "Kelas"
         '
-        'btn_number_2
+        'Label3
         '
-        Me.btn_number_2.Location = New System.Drawing.Point(133, 23)
-        Me.btn_number_2.Name = "btn_number_2"
-        Me.btn_number_2.Size = New System.Drawing.Size(120, 25)
-        Me.btn_number_2.TabIndex = 2
-        Me.btn_number_2.Text = "Angka 2"
-        Me.btn_number_2.UseVisualStyleBackColor = True
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(46, 65)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(96, 17)
+        Me.Label3.TabIndex = 4
+        Me.Label3.Text = "Tanggal Lahir"
         '
-        'list_number_3
+        'cb_date
         '
-        Me.list_number_3.FormattingEnabled = True
-        Me.list_number_3.ItemHeight = 16
-        Me.list_number_3.Location = New System.Drawing.Point(259, 54)
-        Me.list_number_3.Name = "list_number_3"
-        Me.list_number_3.Size = New System.Drawing.Size(120, 116)
-        Me.list_number_3.TabIndex = 5
+        Me.cb_date.FormattingEnabled = True
+        Me.cb_date.Location = New System.Drawing.Point(148, 65)
+        Me.cb_date.Name = "cb_date"
+        Me.cb_date.Size = New System.Drawing.Size(43, 21)
+        Me.cb_date.TabIndex = 5
         '
-        'btn_number_3
+        'cb_month
         '
-        Me.btn_number_3.Location = New System.Drawing.Point(259, 22)
-        Me.btn_number_3.Name = "btn_number_3"
-        Me.btn_number_3.Size = New System.Drawing.Size(120, 25)
-        Me.btn_number_3.TabIndex = 4
-        Me.btn_number_3.Text = "Angka 3"
-        Me.btn_number_3.UseVisualStyleBackColor = True
+        Me.cb_month.FormattingEnabled = True
+        Me.cb_month.Location = New System.Drawing.Point(197, 65)
+        Me.cb_month.Name = "cb_month"
+        Me.cb_month.Size = New System.Drawing.Size(49, 21)
+        Me.cb_month.TabIndex = 6
         '
-        'list_number_4
+        'cb_year
         '
-        Me.list_number_4.FormattingEnabled = True
-        Me.list_number_4.ItemHeight = 16
-        Me.list_number_4.Location = New System.Drawing.Point(385, 54)
-        Me.list_number_4.Name = "list_number_4"
-        Me.list_number_4.Size = New System.Drawing.Size(120, 116)
-        Me.list_number_4.TabIndex = 7
+        Me.cb_year.FormattingEnabled = True
+        Me.cb_year.Location = New System.Drawing.Point(252, 65)
+        Me.cb_year.Name = "cb_year"
+        Me.cb_year.Size = New System.Drawing.Size(70, 21)
+        Me.cb_year.TabIndex = 7
         '
-        'btn_number_4
+        'Label4
         '
-        Me.btn_number_4.Location = New System.Drawing.Point(385, 22)
-        Me.btn_number_4.Name = "btn_number_4"
-        Me.btn_number_4.Size = New System.Drawing.Size(120, 25)
-        Me.btn_number_4.TabIndex = 6
-        Me.btn_number_4.Text = "Angka 4"
-        Me.btn_number_4.UseVisualStyleBackColor = True
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(55, 94)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(87, 17)
+        Me.Label4.TabIndex = 8
+        Me.Label4.Text = "Berat Badan"
         '
-        'list_number_5
+        'cb_weight
         '
-        Me.list_number_5.FormattingEnabled = True
-        Me.list_number_5.ItemHeight = 16
-        Me.list_number_5.Location = New System.Drawing.Point(511, 54)
-        Me.list_number_5.Name = "list_number_5"
-        Me.list_number_5.Size = New System.Drawing.Size(120, 116)
-        Me.list_number_5.TabIndex = 9
+        Me.cb_weight.FormattingEnabled = True
+        Me.cb_weight.Location = New System.Drawing.Point(148, 94)
+        Me.cb_weight.Name = "cb_weight"
+        Me.cb_weight.Size = New System.Drawing.Size(174, 21)
+        Me.cb_weight.TabIndex = 9
         '
-        'btn_number_5
+        'Label7
         '
-        Me.btn_number_5.Location = New System.Drawing.Point(511, 22)
-        Me.btn_number_5.Name = "btn_number_5"
-        Me.btn_number_5.Size = New System.Drawing.Size(120, 25)
-        Me.btn_number_5.TabIndex = 8
-        Me.btn_number_5.Text = "Angka 5"
-        Me.btn_number_5.UseVisualStyleBackColor = True
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(55, 121)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(92, 17)
+        Me.Label7.TabIndex = 10
+        Me.Label7.Text = "Tinggi Badan"
         '
-        'list_number_6
+        'cb_height
         '
-        Me.list_number_6.FormattingEnabled = True
-        Me.list_number_6.ItemHeight = 16
-        Me.list_number_6.Location = New System.Drawing.Point(637, 55)
-        Me.list_number_6.Name = "list_number_6"
-        Me.list_number_6.Size = New System.Drawing.Size(120, 116)
-        Me.list_number_6.TabIndex = 11
+        Me.cb_height.FormattingEnabled = True
+        Me.cb_height.Location = New System.Drawing.Point(148, 121)
+        Me.cb_height.Name = "cb_height"
+        Me.cb_height.Size = New System.Drawing.Size(174, 21)
+        Me.cb_height.TabIndex = 11
         '
-        'btn_number_6
+        'cb_age
         '
-        Me.btn_number_6.Location = New System.Drawing.Point(637, 23)
-        Me.btn_number_6.Name = "btn_number_6"
-        Me.btn_number_6.Size = New System.Drawing.Size(120, 25)
-        Me.btn_number_6.TabIndex = 10
-        Me.btn_number_6.Text = "Angka 6"
-        Me.btn_number_6.UseVisualStyleBackColor = True
+        Me.cb_age.FormattingEnabled = True
+        Me.cb_age.Location = New System.Drawing.Point(148, 148)
+        Me.cb_age.Name = "cb_age"
+        Me.cb_age.Size = New System.Drawing.Size(174, 21)
+        Me.cb_age.TabIndex = 13
         '
-        'list_number_7
+        'Label5
         '
-        Me.list_number_7.FormattingEnabled = True
-        Me.list_number_7.ItemHeight = 16
-        Me.list_number_7.Location = New System.Drawing.Point(763, 54)
-        Me.list_number_7.Name = "list_number_7"
-        Me.list_number_7.Size = New System.Drawing.Size(120, 116)
-        Me.list_number_7.TabIndex = 13
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(100, 149)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(42, 17)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "Umur"
         '
-        'btn_number_7
+        'Button1
         '
-        Me.btn_number_7.Location = New System.Drawing.Point(763, 22)
-        Me.btn_number_7.Name = "btn_number_7"
-        Me.btn_number_7.Size = New System.Drawing.Size(120, 25)
-        Me.btn_number_7.TabIndex = 12
-        Me.btn_number_7.Text = "Angka 7"
-        Me.btn_number_7.UseVisualStyleBackColor = True
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.list_while_5)
-        Me.GroupBox2.Controls.Add(Me.btn_while_5)
-        Me.GroupBox2.Controls.Add(Me.list_while_4)
-        Me.GroupBox2.Controls.Add(Me.btn_while_4)
-        Me.GroupBox2.Controls.Add(Me.list_while_3)
-        Me.GroupBox2.Controls.Add(Me.btn_while_3)
-        Me.GroupBox2.Controls.Add(Me.list_while_2)
-        Me.GroupBox2.Controls.Add(Me.btn_while_2)
-        Me.GroupBox2.Controls.Add(Me.list_while_1)
-        Me.GroupBox2.Controls.Add(Me.btn_while_1)
-        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(12, 211)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(640, 188)
-        Me.GroupBox2.TabIndex = 1
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "While ... End While"
-        '
-        'list_while_5
-        '
-        Me.list_while_5.FormattingEnabled = True
-        Me.list_while_5.ItemHeight = 16
-        Me.list_while_5.Location = New System.Drawing.Point(511, 54)
-        Me.list_while_5.Name = "list_while_5"
-        Me.list_while_5.Size = New System.Drawing.Size(120, 116)
-        Me.list_while_5.TabIndex = 9
-        '
-        'btn_while_5
-        '
-        Me.btn_while_5.Location = New System.Drawing.Point(511, 22)
-        Me.btn_while_5.Name = "btn_while_5"
-        Me.btn_while_5.Size = New System.Drawing.Size(120, 25)
-        Me.btn_while_5.TabIndex = 8
-        Me.btn_while_5.Text = "Angka 5"
-        Me.btn_while_5.UseVisualStyleBackColor = True
-        '
-        'list_while_4
-        '
-        Me.list_while_4.FormattingEnabled = True
-        Me.list_while_4.ItemHeight = 16
-        Me.list_while_4.Location = New System.Drawing.Point(385, 54)
-        Me.list_while_4.Name = "list_while_4"
-        Me.list_while_4.Size = New System.Drawing.Size(120, 116)
-        Me.list_while_4.TabIndex = 7
-        '
-        'btn_while_4
-        '
-        Me.btn_while_4.Location = New System.Drawing.Point(385, 22)
-        Me.btn_while_4.Name = "btn_while_4"
-        Me.btn_while_4.Size = New System.Drawing.Size(120, 25)
-        Me.btn_while_4.TabIndex = 6
-        Me.btn_while_4.Text = "Angka 4"
-        Me.btn_while_4.UseVisualStyleBackColor = True
-        '
-        'list_while_3
-        '
-        Me.list_while_3.FormattingEnabled = True
-        Me.list_while_3.ItemHeight = 16
-        Me.list_while_3.Location = New System.Drawing.Point(259, 54)
-        Me.list_while_3.Name = "list_while_3"
-        Me.list_while_3.Size = New System.Drawing.Size(120, 116)
-        Me.list_while_3.TabIndex = 5
-        '
-        'btn_while_3
-        '
-        Me.btn_while_3.Location = New System.Drawing.Point(259, 22)
-        Me.btn_while_3.Name = "btn_while_3"
-        Me.btn_while_3.Size = New System.Drawing.Size(120, 25)
-        Me.btn_while_3.TabIndex = 4
-        Me.btn_while_3.Text = "Angka 3"
-        Me.btn_while_3.UseVisualStyleBackColor = True
-        '
-        'list_while_2
-        '
-        Me.list_while_2.FormattingEnabled = True
-        Me.list_while_2.ItemHeight = 16
-        Me.list_while_2.Location = New System.Drawing.Point(133, 55)
-        Me.list_while_2.Name = "list_while_2"
-        Me.list_while_2.Size = New System.Drawing.Size(120, 116)
-        Me.list_while_2.TabIndex = 3
-        '
-        'btn_while_2
-        '
-        Me.btn_while_2.Location = New System.Drawing.Point(133, 23)
-        Me.btn_while_2.Name = "btn_while_2"
-        Me.btn_while_2.Size = New System.Drawing.Size(120, 25)
-        Me.btn_while_2.TabIndex = 2
-        Me.btn_while_2.Text = "Angka 2"
-        Me.btn_while_2.UseVisualStyleBackColor = True
-        '
-        'list_while_1
-        '
-        Me.list_while_1.FormattingEnabled = True
-        Me.list_while_1.ItemHeight = 16
-        Me.list_while_1.Location = New System.Drawing.Point(7, 55)
-        Me.list_while_1.Name = "list_while_1"
-        Me.list_while_1.Size = New System.Drawing.Size(120, 116)
-        Me.list_while_1.TabIndex = 1
-        '
-        'btn_while_1
-        '
-        Me.btn_while_1.Location = New System.Drawing.Point(7, 23)
-        Me.btn_while_1.Name = "btn_while_1"
-        Me.btn_while_1.Size = New System.Drawing.Size(120, 25)
-        Me.btn_while_1.TabIndex = 0
-        Me.btn_while_1.Text = "Angka 1"
-        Me.btn_while_1.UseVisualStyleBackColor = True
+        Me.Button1.Location = New System.Drawing.Point(246, 176)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 14
+        Me.Button1.Text = "Simpan"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(917, 450)
-        Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.GroupBox1)
+        Me.ClientSize = New System.Drawing.Size(917, 595)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.cb_age)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.cb_height)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.cb_weight)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.cb_year)
+        Me.Controls.Add(Me.cb_month)
+        Me.Controls.Add(Me.cb_date)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.cb_class)
+        Me.Controls.Add(Me.txt_name)
+        Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox2.ResumeLayout(False)
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents list_number_7 As ListBox
-    Friend WithEvents btn_number_7 As Button
-    Friend WithEvents list_number_6 As ListBox
-    Friend WithEvents btn_number_6 As Button
-    Friend WithEvents list_number_5 As ListBox
-    Friend WithEvents btn_number_5 As Button
-    Friend WithEvents list_number_4 As ListBox
-    Friend WithEvents btn_number_4 As Button
-    Friend WithEvents list_number_3 As ListBox
-    Friend WithEvents btn_number_3 As Button
-    Friend WithEvents list_number_2 As ListBox
-    Friend WithEvents btn_number_2 As Button
-    Friend WithEvents list_number_1 As ListBox
-    Friend WithEvents btn_number_1 As Button
-    Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents list_while_5 As ListBox
-    Friend WithEvents btn_while_5 As Button
-    Friend WithEvents list_while_4 As ListBox
-    Friend WithEvents btn_while_4 As Button
-    Friend WithEvents list_while_3 As ListBox
-    Friend WithEvents btn_while_3 As Button
-    Friend WithEvents list_while_2 As ListBox
-    Friend WithEvents btn_while_2 As Button
-    Friend WithEvents list_while_1 As ListBox
-    Friend WithEvents btn_while_1 As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents txt_name As TextBox
+    Friend WithEvents cb_class As ComboBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents cb_date As ComboBox
+    Friend WithEvents cb_month As ComboBox
+    Friend WithEvents cb_year As ComboBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents cb_weight As ComboBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents cb_height As ComboBox
+    Friend WithEvents cb_age As ComboBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Button1 As Button
 End Class
